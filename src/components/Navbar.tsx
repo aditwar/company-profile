@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Logo from "../../public/svg/Logo.svg";
 
 
+
 const navLinks = [
   { name: "Home" },
   { name: "About Us" },
@@ -34,11 +35,11 @@ export function Navbar() {
         <ul className='hidden lg:flex'>         
           <li className='ml-10 hover: border-b text.xl'><Link href={"/"}>Home</Link></li>
           
-          <li className='ml-10 hover: border-b text.xl'><Link href={"/"}>About Us</Link></li>
+          <li className='ml-10 hover: border-b text.xl'><Link href={"/about-us"}>About Us</Link></li>
 
-          <li className='ml-10 hover: border-b text.xl'><Link href={"/"}>Over Team</Link></li>
+          <li className='ml-10 hover: border-b text.xl'><Link href={"/offer"}>Offer</Link></li>
 
-          <li className='ml-10 hover: border-b text.xl'><Link href={"/"}>Teams</Link></li>
+          <li className='ml-10 hover: border-b text.xl'><Link href={"/teams"}>Teams</Link></li>
         </ul>
       </div>
     </>
