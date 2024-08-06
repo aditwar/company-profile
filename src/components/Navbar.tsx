@@ -15,13 +15,13 @@ const navLinks = [
 export function Navbar() {
   return (
     <>
-      <nav className="fixed flex w-full shadow-xl backdrop-blur-md items-center justify-between px-[20px] py-[16px] lg:container lg:mx-auto lg:px-20  z-50">
-        <div className="flex items-center ">
+      <nav className="fixed flex w-full shadow-xl backdrop-blur-md items-center justify-between px-[50px] py-[16px] z-50">
+        <div className="flex items-center justify-center ">
           <Link href={'/'}>
             <Image src={Logo} alt="Logo" width={50} className="lg:m-5" />
           </Link>
 
-          <div className="hidden lg:flex pl-[74px] gap-x-[60px]">
+          <div className="hidden lg:flex pl-[74px] gap-x-[100px]">
             {navLinks.map((item, index) => (
               <p className="text-[#36485C] font-medium" key={index}>
                 {item.name}
@@ -31,6 +31,7 @@ export function Navbar() {
         </div>      
       </nav>
       
+      {/* Navbar saat lg */}
       <div>
         <ul className='hidden lg:flex'>         
           <li className='ml-10 hover: border-b text.xl'><Link href={"/"}>Home</Link></li>
