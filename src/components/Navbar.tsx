@@ -29,13 +29,13 @@ export function Navbar() {
       <nav className="fixed flex w-full shadow-xl backdrop-blur-md z-10">
         <div className="flex px-[50px] items-center">
           <Link href={'/'}>
-            <Image src={Logo} alt="Logo" width={50} className="m-8" />
+            <Image src={Logo} alt="Logo" width={50} className="m-8 hover:drop-shadow-[0_0_0.3rem_#ffffff70]" />
           </Link>
 
           {/* Navbar Page Default */}
           <div className="hidden justify-self-auto md:flex gap-x-[100px] p-[50px]">
             {navLinks.map((item, index) => (
-              <p className="text-[#36485C] font-extrabold size-fit" key={index}>
+              <p className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit" key={index}>
                 {item.name}
               </p>
             ))}
@@ -45,7 +45,7 @@ export function Navbar() {
 
       {/* Hamburger Menu */}
       <div onClick={handleNav} className="fixed items-center md:hidden right-[10%] p-[50px] z-10">
-          <Image src={hamburger} alt="hamburger" width={25} className="" />        
+          <Image src={hamburger} alt="hamburger" width={25} className="hover:drop-shadow-[0_0_0.3rem_#ffffff70]" />        
       </div>
 
       <div className='fixed w-full z-10'>
@@ -56,7 +56,7 @@ export function Navbar() {
           }>
 
           <div className='flex w-full items-center justify-end p-[50px]'>
-            <div onClick={handleNav} className='cursor-pointer'>
+            <div onClick={handleNav} className='cursor-pointer hover:drop-shadow-[0_0_0.3rem_#ffffff70]'>
               <AiOutlineClose size={25} />
             </div>
           </div>
@@ -65,20 +65,20 @@ export function Navbar() {
             <ul>
               <li 
                 onClick={() => setMenuOpen(false)}
-                className='py-4 font-extrabold size-fit cursor-pointer'><Link href="/"/>Home</li>
+                className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'><Link href="/"/>Home</li>
               <li
                 onClick={() => setMenuOpen(false)}
-                className='py-4 font-extrabold size-fit cursor-pointer'><Link href="/about-us"/>About Us</li>
+                className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'><Link href="/about-us"/>About Us</li>
               <li
               onClick={() => setMenuOpen(false)}
-              className='py-4 font-extrabold size-fit cursor-pointer'><Link href="/service"/>Service</li>
+              className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'><Link href="/service"/>Service</li>
               <li
               onClick={() => setMenuOpen(false)}
-              className='py-4 font-extrabold size-fit cursor-pointer'><Link href="/teams"/>Teams</li>
+              className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'><Link href="/teams"/>Teams</li>
             </ul>            
           </div>
 
-          <Link href={'/'} className="flex absolute bottom-0 down-[-100%] p-[50px] justify-center w-full">
+          <Link href={'/'} className="flex absolute bottom-0 down-[-100%] p-[50px] justify-center w-full hover:drop-shadow-[0_0_0.3rem_#ffffff70]">
             <Image src={Logo} alt="Logo" width={50} className="" />
           </Link>
         </div>
