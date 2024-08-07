@@ -51,17 +51,17 @@ export function Navbar() {
       <div className='fixed w-full z-10'>
         <div className={
             menuOpen
-            ? "fixed left-0 top-0 w-[40%] backdrop-blur-md md:hidden h-screen bg-gradient-to-r from-cyan-500 p-10 ease-in duration-500"
-            : "fixed left-[-100%] top-0 px-0 ease-in duration-500"
+            ? "fixed left-0 top-0 w-[40%] backdrop-blur-md md:hidden h-screen bg-gradient-to-r from-cyan-500 ease-in duration-500"
+            : "fixed left-[-100%] w-[40%] backdrop-blur-md h-screen bg-gradient-to-r from-cyan-500 ease-in duration-500"
           }>
 
-          <div className='flex w-full items-center justify-end p-[10px]'>
+          <div className='flex w-full items-center justify-end p-[50px]'>
             <div onClick={handleNav} className='cursor-pointer'>
               <AiOutlineClose size={25} />
             </div>
           </div>
 
-          <div className='flex-col py-4'>
+          <div className='flex-col py-4 p-10'>
             <ul>
               <li 
                 onClick={() => setMenuOpen(false)}
@@ -78,7 +78,9 @@ export function Navbar() {
             </ul>            
           </div>
 
-          
+          <Link href={'/'} className="flex absolute bottom-0 down-[-100%] p-[50px] justify-center w-full">
+            <Image src={Logo} alt="Logo" width={50} className="" />
+          </Link>
         </div>
       </div>
     </>

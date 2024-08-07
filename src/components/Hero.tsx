@@ -10,7 +10,7 @@ import Cluth from "../../public/svg/Clutch.svg";
 
 export function Hero() {
   return (
-    <div className="pt-4 lg:pt-10">
+    <div className="pt-[180px]">
       <div className="px-[20px] lg:px-[280px]">
         <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]">
           Start monitoring your website like a pro
