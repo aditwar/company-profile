@@ -19,7 +19,7 @@ export default function LoginPage() {
             {/* Sign in section */}
             <div className="bg-white rounded-2xl shadow-2xl md:flex xl:w-2/3 max-w-4xl">
             <div className="xl:w-3/5 p-5 md:shrink-0">                
-                <div className="py-10 text-[#1a1633]">
+                <div className="py-10 text-black">
                 <h2 className="text-3xl font-bold mb-2">Sign in to Account</h2>
                 <div className="border-2 w-10 border-[#1a1633] inline-block mb-2 "></div>
                 {/* soscial media section */}
@@ -34,24 +34,24 @@ export default function LoginPage() {
                     <FaLinkedin />
                     </a>
                 </div>
-                <p className="text-gray-400 pt-3">or use your email account</p>
+                <p className="text-gray-800 pt-3">or use your email account</p>
                 <div className="flex flex-col items-center">
-                    <div className="bg-gray-100 flex items-center w-64 p-2 mb-3">
-                    <FaRegEnvelope className="text-gray-400 m-2" />
+                    <div className="bg-gray-200 flex items-center w-64 p-2 mb-3">
+                    <FaRegEnvelope className="text-gray-500 m-2" />
                     <input
                         type="email"
                         name="email"
                         placeholder="Email"
-                        className="text-sm bg-gray-100 outline-none flex-1"
+                        className="text-sm bg-gray-200 outline-none flex-1"
                     />
                     </div>
-                    <div className="bg-gray-100 flex items-center w-64 p-2 mb-3">
-                    <MdLockOutline className="text-gray-400 m-2" />
+                    <div className="bg-gray-200 flex items-center w-64 p-2 mb-3">
+                    <MdLockOutline className="text-gray-500 m-2" />
                     <input
                         type="password"
                         name="password"
                         placeholder="password"
-                        className="text-sm bg-gray-100 outline-none flex-1"
+                        className="text-sm bg-gray-200 outline-none flex-1"
                     />
                     </div>
                     <div className=" flex w-64 mb-5 justify-between">
@@ -65,7 +65,7 @@ export default function LoginPage() {
                     </div>
                     <a
                     href="#"
-                    className="border-2 border-[#1a1633] rounded-full px-12 py-2 inline-block font-semibold hover:bg-[#1a1633] hover:text-gray-100"
+                    className="border-2 border-black rounded-full px-12 py-2 inline-block font-semibold hover:bg-[#1a1633] hover:text-gray-100"
                     >
                     Sign in
                     </a>
@@ -77,11 +77,11 @@ export default function LoginPage() {
                 <h2 className="text-3xl font-bold mb-2">Hello Friend !</h2>
                 <div className="border-2 w-10 border-white inline-block mb-2 "></div>
                 <p className="mb-2">
-                Fill up personal information and start journey with us.
+                Fill up personal information
                 </p>
                 <a
                 href="#"
-                className="border-2 border-white rounded-full px-12 py-2 inline-block font-semibold hover:bg-gray-100 hover:text-[#1a1633]"
+                className="border-2 border-white rounded-full px-12 py-2 inline-block font-semibold hover:bg-gray-100 hover:text-black"
                 >
                 Sign Up
                 </a>
