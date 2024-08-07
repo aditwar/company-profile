@@ -18,10 +18,7 @@ export default function LoginPage() {
         <main className="flex flex-col items-center justify-center w-full flex-1 xl:px-20 text-center pt-[180px]">
             {/* Sign in section */}
             <div className="bg-white rounded-2xl shadow-2xl md:flex xl:w-2/3 max-w-4xl">
-            <div className="xl:w-3/5 p-5 md:shrink-0">
-                <div className=" font-bold text-[#1a1633] text-center sm:text-left">
-                <span>StartUpperLife</span>
-                </div>
+            <div className="xl:w-3/5 p-5 md:shrink-0">                
                 <div className="py-10 text-[#1a1633]">
                 <h2 className="text-3xl font-bold mb-2">Sign in to Account</h2>
                 <div className="border-2 w-10 border-[#1a1633] inline-block mb-2 "></div>
@@ -37,7 +34,7 @@ export default function LoginPage() {
                     <FaLinkedin />
                     </a>
                 </div>
-                <p className="text-gray-400">or use your email account</p>
+                <p className="text-gray-400 pt-3">or use your email account</p>
                 <div className="flex flex-col items-center">
                     <div className="bg-gray-100 flex items-center w-64 p-2 mb-3">
                     <FaRegEnvelope className="text-gray-400 m-2" />
@@ -76,7 +73,7 @@ export default function LoginPage() {
                 </div>
             </div>
             {/* sing up section */}
-            <div className="xl:w-2/5 bg-[#1a1633] text-gray-100 rounded-tr-2xl rounded-br-2xl py-36 px-12">
+            <div className="xl:w-2/5 bg-gradient-to-r from-indigo-500 to-pink-500 text-gray-100 rounded-tr-2xl rounded-br-2xl py-36 px-12">
                 <h2 className="text-3xl font-bold mb-2">Hello Friend !</h2>
                 <div className="border-2 w-10 border-white inline-block mb-2 "></div>
                 <p className="mb-2">
