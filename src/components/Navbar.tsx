@@ -25,14 +25,14 @@ export function Navbar() {
 
   return (
     <>
-      <nav className="fixed flex w-full shadow-xl backdrop-blur-md items-center px-[50px] z-10">
-        <div className="flex items-center">
+      <nav className="fixed flex w-full shadow-xl backdrop-blur-md z-10">
+        <div className="flex px-[50px] items-center">
           <Link href={'/'}>
             <Image src={Logo} alt="Logo" width={50} className="m-8" />
           </Link>
 
           {/* Navbar Page Default */}
-          <div className="hidden md:flex gap-x-[100px] p-[50px]">
+          <div className="hidden justify-self-auto md:flex gap-x-[100px] p-[50px]">
             {navLinks.map((item, index) => (
               <p className="text-[#36485C] font-extrabold size-fit" key={index}>
                 {item.name}
@@ -42,7 +42,7 @@ export function Navbar() {
         </div>
         
         {/* Hamburger Menu */}
-        <div onClick={handleNav} className="justify-left md:hidden cursor-pointer pl-24">
+        <div onClick={handleNav} className="justify-center items-center md:hidden cursor-pointer p-[50px]">
           <Image src={hamburger} alt="hamburger" width={25} className="" />        
         </div>
 
