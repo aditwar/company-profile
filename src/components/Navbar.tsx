@@ -25,14 +25,14 @@ export function Navbar() {
 
   return (
     <>
-      <nav className="fixed flex w-full shadow-xl backdrop-blur-md items-center px-[50px] py-[16px] z-10">
+      <nav className="fixed flex w-full shadow-xl backdrop-blur-md items-center px-[50px] z-10">
         <div className="flex items-center">
           <Link href={'/'}>
-            <Image src={Logo} alt="Logo" width={50} className="md:m-5" />
+            <Image src={Logo} alt="Logo" width={50} className="m-8" />
           </Link>
 
           {/* Navbar Page Default */}
-          <div className="hidden md:flex pl-[300px] justify-items-center gap-x-[100px]">
+          <div className="hidden md:flex gap-x-[100px] p-[50px]">
             {navLinks.map((item, index) => (
               <p className="text-[#36485C] font-extrabold size-fit" key={index}>
                 {item.name}
