@@ -19,7 +19,7 @@ export function Navbar() {
 
   return (
     <>
-      <nav className="fixed flex w-screen shadow-xl backdrop-blur-md z-10">
+      <nav className="fixed flex w-screen bg-[#ffffff40] shadow-xl backdrop-blur-md z-10">
         <div className="flex px-[50px] items-center">
 
           {/* Logo NavBar Default */}
