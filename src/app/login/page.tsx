@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function LoginPage() {
     return (
         <>
-        <main className="flex flex-col items-center justify-center w-full flex-1 xl:px-20 text-center pt-[180px]">
+        <main className="flex flex-col items-center justify-center w-full flex-1 xl:px-20 text-center pt-[145px]">
             {/* Sign in section */}
             <div className="bg-white rounded-2xl shadow-2xl md:flex xl:w-2/3 max-w-4xl">
             <div className="xl:w-3/5 p-5 md:shrink-0">                
