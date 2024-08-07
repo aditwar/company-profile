@@ -8,17 +8,9 @@ import hamburger from "../../public/svg/hamburger.svg";
 import { AiOutlineClose } from 'react-icons/ai';
 import { useState } from "react"; // untuk menggunakan HOOK
 
-
-
-const navLinks = [
-  { name: "Home" },
-  { name: "About Us" },
-  { name: "Service" },
-  { name: "Teams" },
-];
-
 export function Navbar() {
 
+  // Ini agar bisa buka Navbar Samping
   const [menuOpen, setMenuOpen] = useState(false)
   const handleNav = () => {
     setMenuOpen(!menuOpen)
@@ -29,7 +21,7 @@ export function Navbar() {
       <nav className="fixed flex w-full shadow-xl backdrop-blur-md z-10">
         <div className="flex px-[50px] items-center">
 
-          {/* Logo NavBar */}
+          {/* Logo NavBar Default */}
           <Link href={'/'}>
             <Image src={Logo} alt="Logo" width={50} className="m-8 hover:drop-shadow-[0_0_0.3rem_#ffffff70]" />
           </Link>
@@ -56,18 +48,21 @@ export function Navbar() {
       </div>
 
       <div className='fixed w-full z-10'>
+        {/* Ini agar bisa Buka Navbar Samping */}
         <div className={
             menuOpen
             ? "fixed left-0 top-0 w-[40%] backdrop-blur-md md:hidden h-screen bg-gradient-to-r from-cyan-500 ease-in duration-500"
             : "fixed left-[-100%] w-[40%] backdrop-blur-md h-screen bg-gradient-to-r from-cyan-500 ease-in duration-500"
           }>
 
+          {/* Icon Close Samping */}
           <div className='flex w-full items-center justify-end p-[50px]'>
             <div onClick={handleNav} className='cursor-pointer hover:drop-shadow-[0_0_0.3rem_#ffffff70]'>
               <AiOutlineClose size={25} />
             </div>
           </div>
 
+          {/* Navbar Samping */}
           <div className='flex-col py-4 p-10'>
             <ul>
               <li 
@@ -85,6 +80,7 @@ export function Navbar() {
             </ul>            
           </div>
 
+          {/* Logo Navbar Samping */}
           <Link href={'/'} className="flex absolute bottom-0 down-[-100%] p-[50px] justify-center w-full hover:drop-shadow-[0_0_0.3rem_#ffffff70]">
             <Image src={Logo} alt="Logo" width={50} className="" />
           </Link>
