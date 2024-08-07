@@ -35,7 +35,7 @@ export function Navbar() {
           {/* Navbar Page Default */}
           <div className="hidden justify-self-auto md:flex gap-x-[100px] p-[50px]">
             {navLinks.map((item, index) => (
-              <p className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit" key={index}>
+              <p className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer" key={index}>
                 {item.name}
               </p>
             ))}
@@ -44,7 +44,7 @@ export function Navbar() {
       </nav>
 
       {/* Hamburger Menu */}
-      <div onClick={handleNav} className="fixed items-center md:hidden right-[10%] p-[50px] z-10">
+      <div onClick={handleNav} className="fixed items-center md:hidden right-[10%] cursor-pointer p-[50px] z-10">
           <Image src={hamburger} alt="hamburger" width={25} className="hover:drop-shadow-[0_0_0.3rem_#ffffff70]" />        
       </div>
 

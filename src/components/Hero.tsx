@@ -13,17 +13,15 @@ export function Hero() {
     <div className="pt-[180px]">
       <div className="px-[20px] lg:px-[280px]">
         <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]">
-          Start monitoring your website like a pro
+          The World's Leading Monitoring Service
         </h1>
         <p className="text-center pt-6 text-[#36485C] lg:text-[18px] lg:leading-7">
-          Get a birds eye view with our customizable dashboard. Stay on top of
-          things! Revamp your work process with our game-changing feature. Boost
-          productivity and efficiency!
+        Experience the pinnacle of reliability with The World's Leading Monitoring Service. Our state-of-the-art technology and unparalleled expertise ensure you receive the most accurate and timely insights. Trust us to safeguard your operations with comprehensive monitoring solutions that keep you informed and ahead of the curve. Discover the peace of mind that comes with knowing you're backed by the best in the industry.
         </p>
 
         <div className="flex w-full pt-8 justify-center gap-x-6 ">
           <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
-            Try for free
+            Try Now for free
           </button>
           <button className="w-1/2 text-[#4328EB] flex items-center justify-center gap-x-2 lg:w-fit">
             View Pricing
@@ -54,10 +52,10 @@ export function Hero() {
             </p>
             <div className="grid grid-cols-3 items-center justify-center justify-items-center px-[20px] align-middle  lg:grid-cols-5">
               <Image src={Google} alt="" />
-              <Image src={Slack} alt="" />
-              <Image src={Truspilot} alt="" />
               <Image src={Cnn} alt="" />
+              <Image src={Truspilot} alt="" />
               <Image src={Cluth} alt="" />
+              <Image src={Slack} alt="" />
             </div>
           </div>
         </div>

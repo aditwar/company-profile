@@ -21,7 +21,7 @@ export function Features() {
             Sales Monitoring
           </h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Simplify your sales monitoring
+            Best for your Sales Monitoring
           </h1>
           <Image
             src={Feature1}
@@ -29,9 +29,7 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
+          Elevate your workflow and stay ahead of the curve with our game-changing feature. Imagine having a bird's eye view of your entire operation, effortlessly at your fingertips. Our customizable dashboard transforms how you manage tasks, offering unprecedented clarity and control. Discover a new level of efficiency and insight that propels your productivity to new heights.
           </p>
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
