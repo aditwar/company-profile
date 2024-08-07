@@ -4,6 +4,7 @@ import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 import Logo from "../../public/svg/Logo.svg";
+import User from "../../public/svg/User.svg";
 import hamburger from "../../public/svg/hamburger.svg";
 import { AiOutlineClose } from 'react-icons/ai';
 import { useState } from "react"; // untuk menggunakan HOOK
@@ -18,7 +19,7 @@ export function Navbar() {
 
   return (
     <>
-      <nav className="fixed flex w-full shadow-xl backdrop-blur-md z-10">
+      <nav className="fixed flex w-screen shadow-xl backdrop-blur-md z-10">
         <div className="flex px-[50px] items-center">
 
           {/* Logo NavBar Default */}
@@ -44,11 +45,14 @@ export function Navbar() {
             </ul>            
           </div>
 
-          {/* SignIn User Profile */}
-          <div className="flex items-center gap-x-2">            
-            <span className="hidden font-medium text-[#36485C] lg:block">
-              <Link href={'/login'}>Sign in</Link>
-            </span>
+          {/* Icon User Profile */}
+          <div className="hidden lg:flex absolute right-0 items-center p-[50px] mx-5 hover:drop-shadow-[0_0_0.3rem_#ffffff70] cursor-pointer gap-x-[20px]">
+            <Link href={'/login'} className='flex'>
+              <p className="text-black font-extrabold size-fit hover:text-purple-600 p-5">
+                Sign In
+              </p>
+              <Image src={User} alt="User Profile" />
+            </Link>            
           </div>          
         </div>               
       </nav>
