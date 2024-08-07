@@ -5,10 +5,10 @@ export function Pricing() {
   return (
     <div className="py-[48px] lg:py-[60px]">
       <h1 className="text-[#172026] text-center font-medium  text-2xl lg:text-[42px]">
-        Flexible plans for you
+        Flexible Plans for you
       </h1>
       <p className="pt-[16px] pb-[40px] text-center text-[#36485C] lg:text-[18px]">
-        No hidden fees!
+        Money Back Guarantee
       </p>
 
       <div className="flex flex-col gap-y-6 gap-x-[24px] lg:flex-row">
@@ -18,7 +18,7 @@ export function Pricing() {
               Free Trial
             </h3>
             <p className="pt-[12px] text-[#36485C] lg:text-[18px]">
-              Perfect for testing the waters
+              Perfect for testing the service
             </p>
 
             <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">
@@ -30,19 +30,19 @@ export function Pricing() {
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                5 min. Monitoring Interval
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                SSL & Domain Ecp. Monitor
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                Notify seats unavailable
               </li>
             </ul>
           </div>
@@ -51,7 +51,7 @@ export function Pricing() {
           </button>
         </div>
 
-        <div className="w-full rounded-[8px] bg-[#4328EB] p-6 flex flex-col">
+        <div className="w-full rounded-[8px] bg-[#31d37a] p-6 flex flex-col">
           <div>
             <h3 className="font-medium text-white text-[18px] lg:text-xl">
               Business
@@ -61,7 +61,7 @@ export function Pricing() {
             </p>
 
             <h2 className="pt-4 text-2xl font-medium text-white lg:text-[32px]">
-              500$<span className="text-[#F4F8FA]">/mo</span>
+              50$<span className="text-[#F4F8FA]">/mo</span>
             </h2>
 
             <ul className="flex flex-col gap-y-2 pt-4 text-[#F4F8FA]">
@@ -69,31 +69,31 @@ export function Pricing() {
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                Only 9 integrations
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                Basic status pages
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                No login seats available
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                60 sec. Monitoring Interval
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
                   <Image src={Check} alt="included" />
                 </span>
-                Lorem ipsum dolor sit amet
+                Keyword monitor
               </li>
             </ul>
           </div>
@@ -111,16 +111,13 @@ export function Pricing() {
               Perfect for big companies
             </p>
 
-            <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">Custom</h2>
+            <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">As you need</h2>
 
             <p className="pt-4 text-[16px] text-[#36485C]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              30 sec. Monitoring Interval
             </p>
             <p className="pt-2 text-[16px] text-[#36485C]">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit.
+              HTTP, port ping monitor
             </p>
           </div>
           <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">

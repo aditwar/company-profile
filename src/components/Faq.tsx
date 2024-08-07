@@ -7,30 +7,25 @@ import Image from "next/image";
 
 const items = [
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "What is website monitoring?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "Website monitoring is a catch-all term that describes any online service that checks a website for its abailability, function, speed, and performance..",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "What are the Best Website monitoring services?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "The best website monitoring sercive monitor your websites from multiple testing nodes across different locations like SmartBear Alertsite",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "Should you use website monitoring tools?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "It's a much better idea to use website monitoring tools instead. Website monitoring is a catch-all term that describes any online service",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "Why do you need a website monitoring solution?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
-  },
-  {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
-  },
+      "Effortlessly monitor your websites & API's for complete visibility, speed & reliability from anywhere",
+  }  
 ];
 
 export function Faq() {
@@ -41,12 +36,8 @@ export function Faq() {
           Frequently Asked Questions
         </h3>
         <h1 className="py-4 text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-          Lets clarify some of your questions
-        </h1>
-        <p className="text-[#36485C] pb-[24px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore
-        </p>
+          People Also Ask
+        </h1>        
       </div>
 
       <div className="lg:w-2/3">
