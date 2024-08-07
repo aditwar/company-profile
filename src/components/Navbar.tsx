@@ -96,6 +96,10 @@ export function Navbar() {
                 <li onClick={() => setMenuOpen(false)}
                   className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'>Teams</li>
               </Link>
+              <Link href={'/login'}>
+                <li onClick={() => setMenuOpen(false)}
+                  className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'>Login</li>
+              </Link>
             </ul>            
           </div>
 
