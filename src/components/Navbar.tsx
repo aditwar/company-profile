@@ -28,18 +28,25 @@ export function Navbar() {
     <>
       <nav className="fixed flex w-full shadow-xl backdrop-blur-md z-10">
         <div className="flex px-[50px] items-center">
+
+          {/* Logo NavBar */}
           <Link href={'/'}>
             <Image src={Logo} alt="Logo" width={50} className="m-8 hover:drop-shadow-[0_0_0.3rem_#ffffff70]" />
           </Link>
 
-          {/* Navbar Page Default */}
-          <div className="hidden justify-self-auto md:flex gap-x-[100px] p-[50px]">
-            {navLinks.map((item, index) => (
-              <p className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer" key={index}>
-                {item.name}
-              </p>
-            ))}
-          </div>
+          {/* Navbar Inline */}
+          <div className=''>
+            <ul className='hidden justify-self-auto md:flex gap-x-[100px] p-[50px]'>
+              <li 
+                className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer"><Link href="/"/>Home</li>
+              <li
+                className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer"><Link href="/about-us"/>About Us</li>
+              <li
+              className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer"><Link href="/service"/>Service</li>
+              <li
+              className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer"><Link href="/teams"/>Teams</li>
+            </ul>            
+          </div>          
         </div>               
       </nav>
 
