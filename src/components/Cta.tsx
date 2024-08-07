@@ -16,7 +16,7 @@ export function Cta() {
           Try for free
         </button>
 
-        <button className="flex w-full items-center justify-center font-medium gap-x-3 mt-[32px] text-white font-medium lg:w-fit lg:mt-0">
+        <button className="flex w-full items-center justify-center font-medium gap-x-3 mt-[32px] text-white lg:w-fit lg:mt-0">
           Contact Sales{" "}
           <span>
             <Image src={Arrow} alt="Learn More" />

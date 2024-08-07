@@ -42,6 +42,13 @@ export function Navbar() {
                 <li className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer">Teams</li>
               </Link>
             </ul>            
+          </div>
+
+          {/* SignIn User Profile */}
+          <div className="flex items-center gap-x-2">            
+            <span className="hidden font-medium text-[#36485C] lg:block">
+              <Link href={'/login'}>Sign in</Link>
+            </span>
           </div>          
         </div>               
       </nav>
