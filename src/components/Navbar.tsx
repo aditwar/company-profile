@@ -29,14 +29,18 @@ export function Navbar() {
           {/* Navbar Inline */}
           <div className=''>
             <ul className='hidden justify-self-auto md:flex gap-x-[100px] p-[50px]'>
-              <li 
-                className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer"><Link href="/"/>Home</li>
-              <li
-                className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer"><Link href="/about-us"/>About Us</li>
-              <li
-              className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer"><Link href="/service"/>Service</li>
-              <li
-              className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer"><Link href="/teams"/>Teams</li>
+              <Link href={'/'}>
+                <li className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer">Home</li>
+              </Link>
+              <Link href={'/about-us'}>
+                <li className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer">About Us</li>
+              </Link>
+              <Link href={'/service'}>
+                <li className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer">Service</li>
+              </Link>
+              <Link href={'/teams'}>
+                <li className="text-black hover:text-purple-600 hover:drop-shadow-[0_0_0.3rem_#ffffff70] font-extrabold size-fit cursor-pointer">Teams</li>
+              </Link>
             </ul>            
           </div>          
         </div>               
@@ -65,18 +69,22 @@ export function Navbar() {
           {/* Navbar Samping */}
           <div className='flex-col py-4 p-10'>
             <ul>
-              <li 
-                onClick={() => setMenuOpen(false)}
-                className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'><Link href="/"/>Home</li>
-              <li
-                onClick={() => setMenuOpen(false)}
-                className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'><Link href="/about-us"/>About Us</li>
-              <li
-              onClick={() => setMenuOpen(false)}
-              className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'><Link href="/service"/>Service</li>
-              <li
-              onClick={() => setMenuOpen(false)}
-              className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'><Link href="/teams"/>Teams</li>
+              <Link href={'/'}>
+                <li onClick={() => setMenuOpen(false)}
+                  className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'>Home</li>
+              </Link>
+              <Link href={'/about-us'}>
+                <li onClick={() => setMenuOpen(false)}
+                  className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'>About Us</li>
+              </Link>
+              <Link href={'/service'}>
+                <li onClick={() => setMenuOpen(false)}
+                  className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'>Service</li>
+              </Link>
+              <Link href={'/teams'}>
+                <li onClick={() => setMenuOpen(false)}
+                  className='py-4 font-extrabold size-fit cursor-pointer hover:text-purple-800 hover:drop-shadow-[0_0_0.3rem_#ffffff70]'>Teams</li>
+              </Link>
             </ul>            
           </div>
 
