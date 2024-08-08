@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import Image from 'next/image';
+
+  
 
 export const metadata: Metadata = {
     title: "Aditya | Teams",
@@ -7,8 +10,43 @@ export const metadata: Metadata = {
 
 export default function TeamsPage() {
     return (
-        <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In aspernatur labore sed amet nobis ab, quam voluptatibus ad consequuntur a explicabo sit, minus inventore. Excepturi officiis non nisi impedit harum quas veniam expedita? Excepturi voluptates error voluptate officiis? Reprehenderit vero et mollitia cum ea, quae quaerat animi magnam sit, pariatur modi dolores sapiente minus aut delectus debitis blanditiis! Reiciendis, veritatis! Nemo facere quia dolorum dignissimos hic sequi itaque temporibus doloremque ipsam provident perferendis, consequuntur libero at aperiam culpa! Laboriosam iste consequatur officia repudiandae at, facilis ea corporis dolores quam neque consequuntur eos modi eligendi expedita quia eius molestias adipisci ipsam provident quod maiores pariatur blanditiis? Soluta id perspiciatis, vel quaerat modi fugit quasi tenetur, laborum ab illo magni. Ipsum a molestiae nostrum voluptates assumenda quam explicabo cum doloremque fuga aliquid voluptatum consectetur quo dolorum magnam obcaecati nobis dolor commodi culpa dolore veritatis, blanditiis aliquam reprehenderit saepe adipisci! Nam numquam est dolor explicabo quis. Commodi magni corporis quam aperiam, autem repellat sequi dicta maxime quae quibusdam deleniti natus animi ad, dolore consequuntur. Error eaque, illo delectus velit deleniti iusto assumenda animi? Minus aut nobis impedit deleniti enim, accusamus repellat culpa corporis, molestiae at quibusdam illum! Molestiae exercitationem odit quisquam commodi dignissimos tempora quasi mollitia nisi sint enim, ipsam temporibus aperiam assumenda error asperiores officiis. Repellendus tempore dignissimos quidem, enim adipisci quae, sed sunt placeat eveniet, est dolores laborum voluptate aperiam at quos. Et ratione distinctio assumenda, recusandae consectetur facilis impedit ea deleniti reiciendis totam qui voluptatem, quibusdam obcaecati quis veniam consequuntur eos autem dolore. Fugiat velit in porro, quae consequatur, repellat itaque aut, expedita voluptate fuga magni dicta ducimus voluptates pariatur perspiciatis accusantium? Labore cumque, harum provident aperiam consequatur libero officia consequuntur beatae! Eius, tempora neque! Itaque voluptate impedit ea sed, reiciendis ipsam perferendis assumenda esse tempore est, consequuntur facere similique?
-        </div>
+        <>
+            <section className="w-full bg-[#0C0C0C] py-28">
+                <div className="max-w-7xl mx-auto lg:px-10">
+                    <h1 className="text-center text-6xl text-white font-light pb-10">Meet the
+                        <span className="font-bold text-blue-600">team</span>
+                    </h1>
+                    <p className="text-center text-4xl font-bold pb-6 text-slate-200">Leadership</p>
+                    <div className="flex flex-wrap justify-center gap-3 lg:gap-5">
+                        <div className="bg-slate-900 rounded-md w-48">
+
+                            <Image src="https://randomuser.me/api/portraits/women/3.jpg" alt="me" width="150" height="150" decoding="async" data-nimg="1" className='mx-auto p-2' />
+                            <p className="text-lg w-40 text-center mx-auto h-14 font-semibold text-white"> Käte Köhn</p>
+                            <p className="text-center text-slate-200">Germany</p>
+                        </div>
+                        <div className="bg-slate-900 rounded-md w-48">
+
+                            <Image src="https://randomuser.me/api/portraits/women/3.jpg" alt="me" width="150" height="150" decoding="async" data-nimg="1" className='mx-auto p-2' />
+                            <p className="text-lg w-40 text-center mx-auto h-14 font-semibold text-white"> Käte Köhn</p>
+                            <p className="text-center text-slate-200">Germany</p>
+                        </div>
+                    </div>
+                    <p className="text-center text-4xl font-bold pb-6 text-slate-200 pt-20">Creative</p>
+                    <div className="flex flex-wrap justify-center gap-3 lg:gap-5">
+                    <div className="bg-slate-900 rounded-md w-48">
+                        <Image src="https://randomuser.me/api/portraits/women/3.jpg" alt="me" width="150" height="150" decoding="async" data-nimg="1" className='mx-auto p-2' />
+                        <p className="text-lg w-40 text-center mx-auto h-14 font-semibold text-white"> Käte Köhn</p>
+                        <p className="text-center text-slate-200">Germany</p>
+                    </div>
+                        <div className="bg-slate-900 rounded-md w-48">
+
+                            <Image src="https://randomuser.me/api/portraits/women/3.jpg" alt="me" width="150" height="150" decoding="async" data-nimg="1" className='mx-auto p-2' />
+                            <p className="text-lg w-40 text-center mx-auto h-14 font-semibold text-white"> Käte Köhn</p>
+                            <p className="text-center text-slate-200">Germany</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
     )
 }
