@@ -2,7 +2,6 @@
 
 import * as React from 'react';
 import * as Accordion from "@radix-ui/react-accordion";
-import Plus from "../../public/svg/Plus.svg";
 import Image from "next/image";
 
 const items = [
@@ -58,12 +57,12 @@ export function Faq() {
                     <p className="text-left font-medium text-[#172026] lg:text-[18px]">
                       {item.question}
                     </p>
-                    <span>
-                      <Image
-                        src={Plus}
-                        alt="See more"
-                        className="h-10 w-10 lg:w-6 lg:h-6"
-                      />
+                    <span>                      
+                      <Image alt="included"
+                      src="/Plus.svg"                  
+                      width="300"
+                      height="200"
+                      className="h-10 w-10 lg:w-6 lg:h-6" />
                     </span>
                   </Accordion.Trigger>
                 </Accordion.Header>

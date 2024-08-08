@@ -1,7 +1,6 @@
 import Image from "next/image";
 import BlurArrow from "../../public/svg/blue-button.svg";
 import Gradient from "../../public/svg/Gradient.svg";
-import HeroImage from "../../public/svg/Image.svg";
 import Google from "../../public/svg/Google.svg";
 import Slack from "../../public/svg/Slack.svg";
 import Truspilot from "../../public/svg/Trustpilot.svg";
@@ -41,8 +40,10 @@ export function Hero() {
 
         <div className="absolute bottom-5 flex w-full flex-col items-center">
           <Image
-            src={HeroImage}
+            src="/Image.svg"
             alt="hero image"
+            width="300"
+            height="200"
             className="-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%]"
           />
 

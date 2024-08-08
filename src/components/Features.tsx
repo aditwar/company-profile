@@ -1,19 +1,14 @@
 import Image from "next/image";
-import Feature1 from "../../public/svg/feature-1.svg";
-import Feature2 from "../../public/svg/feature-2.svg";
-import Feature3 from "../../public/svg/feature-3.svg";
-import Check from "../../public/svg/check.svg";
-import bluebutton from "../../public/svg/blue-button.svg";
-import greenButton from "../../public/svg/green-button.svg";
-import pinkButton from "../../public/svg/pink-button.svg";
 
 export function Features() {
   return (
     <div className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px] ">
       <div className="flex flex-col gap-x-6 sm:flex-row-reverse">
         <Image
-          src={Feature1}
-          alt="Feature 1 image"
+          src="/feature.svg"
+          alt="hero image"
+          width="300"
+          height="200"
           className="hidden w-1/2 sm:block"
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
@@ -24,8 +19,10 @@ export function Features() {
             Best for your Sales Monitoring
           </h1>
           <Image
-            src={Feature1}
-            alt="feature 1 image"
+            src="/feature2.svg"
+            alt="hero image"
+            width="300"
+            height="200"
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
@@ -34,20 +31,32 @@ export function Features() {
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
             <li className="flex items-center gap-x-2 text-[#36485C]">
-              <span>
-                <Image src={Check} alt="Checkmark" />
+              <span>                
+                <Image alt="included"
+                  src="/check.svg"                  
+                  width="300"
+                  height="200"
+                  className="w-[16px]" />
               </span>
               Easy to Manage
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
-                <Image src={Check} alt="Checkmark" />
+                <Image alt="included"
+                    src="/check.svg"                  
+                    width="300"
+                    height="200"
+                    className="w-[16px]" />
               </span>
               Faster than Ever
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
-                <Image src={Check} alt="Checkmark" />
+                <Image alt="included"
+                    src="/check.svg"                  
+                    width="300"
+                    height="200"
+                    className="w-[16px]" />
               </span>
               Secure Guaranteed
             </li>
@@ -55,8 +64,12 @@ export function Features() {
 
           <p className="flex items-center gap-x-2 pt-[24px] cursor-pointer font-medium text-[#0085FF] lg:text-[18px]">
             Learn More{" "}
-            <span>
-              <Image src={bluebutton} alt="Learn more" />
+            <span>              
+              <Image alt="included"
+                    src="/blue-button.svg"                  
+                    width="28"
+                    height="28"
+                    className="w-[28px]" />
             </span>
           </p>
         </div>
@@ -64,10 +77,13 @@ export function Features() {
 
       <div className="flex flex-col gap-x-6 sm:flex-row">
         <Image
-          src={Feature2}
-          alt="Feature 1 image"
+          src="/feature3.svg"
+          alt="hero image"
+          width="300"
+          height="200"
           className="hidden w-1/2 sm:block"
         />
+        
         <div className="sm:w-1/2 lg:py-[56px] lg:pl-[56px]">
           <h3 className="font-medium text-[#00A424] lg:text-[18px] ">
             Customer Support
@@ -75,9 +91,11 @@ export function Features() {
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
             Stay in Touch with Your Customers
           </h1>
-          <Image
-            src={Feature2}
+          <Image            
             alt="feature 1 image"
+            src="/feature2.svg"            
+            width="300"
+            height="200"
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
@@ -87,19 +105,32 @@ export function Features() {
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
-                <Image src={Check} alt="Checkmark" />
+                <Image alt="included"
+                  src="/check.svg"                  
+                  width="300"
+                  height="200"
+                  className="w-[16px]" />
               </span>
               Easy to Manage
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
-                <Image src={Check} alt="Checkmark" />
+                <Image alt="included"
+                  src="/check.svg"                  
+                  width="300"
+                  height="200"
+                  className="w-[16px]" />
               </span>
               Faster that Ever
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
-                <Image src={Check} alt="Checkmark" />
+                
+                <Image alt="included"
+                  src="/check.svg"                  
+                  width="300"
+                  height="200"
+                  className="w-[16px]" />
               </span>
               Secure Guaranteed
             </li>
@@ -107,17 +138,23 @@ export function Features() {
 
           <p className="flex items-center gap-x-2 pt-[24px] cursor-pointer font-medium text-[#00A424] lg:text-[18px]">
             Learn More{" "}
-            <span>
-              <Image src={greenButton} alt="Learn more" />
+            <span>              
+              <Image alt="included"
+                    src="/green-button.svg"                  
+                    width="28"
+                    height="28"
+                    className="w-[28px]" />
             </span>
           </p>
         </div>
       </div>
 
       <div className="flex flex-col gap-x-6 sm:flex-row-reverse">
-        <Image
-          src={Feature3}
-          alt="Feature 1 image"
+        <Image          
+          src="/feature4.svg"
+          alt="hero image"
+          width="300"
+          height="200"
           className="hidden w-1/2 sm:block"
         />
         <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
@@ -127,9 +164,11 @@ export function Features() {
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
             Monitor your sites with New Subscribers
           </h1>
-          <Image
-            src={Feature3}
+          <Image            
             alt="feature 1 image"
+            src="/feature3.svg"            
+            width="300"
+            height="200"
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
@@ -152,7 +191,11 @@ export function Features() {
           <p className="flex items-center cursor-pointer gap-x-2 pt-[24px] font-medium text-[#EB2891] lg:text-[18px]">
             Learn More{" "}
             <span>
-              <Image src={pinkButton} alt="Learn more" />
+            <Image alt="included"
+                    src="/pink-button.svg"                  
+                    width="28"
+                    height="28"
+                    className="w-[28px]" />
             </span>
           </p>
         </div>

@@ -28,19 +28,31 @@ export function Pricing() {
             <ul className="flex flex-col gap-y-2 pt-4 text-[#5F7896]">
               <li className="flex items-center gap-x-2">
                 <span>
-                  <Image src={Check} alt="included" />
+                  <Image alt="included"
+                  src="/check.svg"                  
+                  width="300"
+                  height="200"
+                  className="w-[16px]" />
                 </span>
                 5 min. Monitoring Interval
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
-                  <Image src={Check} alt="included" />
+                <Image alt="included"
+                  src="/check.svg"                  
+                  width="300"
+                  height="200"
+                  className="w-[16px]" />
                 </span>
                 SSL & Domain Ecp. Monitor
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
-                  <Image src={Check} alt="included" />
+                <Image alt="included"
+                  src="/check.svg"                  
+                  width="300"
+                  height="200"
+                  className="w-[16px]" />
                 </span>
                 Notify seats unavailable
               </li>
@@ -73,25 +85,41 @@ export function Pricing() {
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
-                  <Image src={Check} alt="included" />
+                  <Image alt="included"
+                    src="/check.svg"                  
+                    width="300"
+                    height="200"
+                    className="w-[16px]" />
                 </span>
                 Basic status pages
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
-                  <Image src={Check} alt="included" />
+                  <Image alt="included"
+                    src="/check.svg"                  
+                    width="300"
+                    height="200"
+                    className="w-[16px]" />
                 </span>
                 No login seats available
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
-                  <Image src={Check} alt="included" />
+                  <Image alt="included"
+                    src="/check.svg"                  
+                    width="300"
+                    height="200"
+                    className="w-[16px]" />
                 </span>
                 60 sec. Monitoring Interval
               </li>
               <li className="flex items-center gap-x-2">
                 <span>
-                  <Image src={Check} alt="included" />
+                  <Image alt="included"
+                    src="/check.svg"                  
+                    width="300"
+                    height="200"
+                    className="w-[16px]" />
                 </span>
                 Keyword monitor
               </li>

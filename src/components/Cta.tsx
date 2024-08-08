@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Arrow from "../../public/png/arrow.png";
 
 export function Cta() {
   return (
@@ -18,8 +17,12 @@ export function Cta() {
 
         <button className="flex w-full items-center justify-center font-medium gap-x-3 mt-[32px] text-white lg:w-fit lg:mt-0">
           Contact Sales{" "}
-          <span>
-            <Image src={Arrow} alt="Learn More" />
+          <span>            
+            <Image alt="included"
+                      src="/arrow.png"                  
+                      width="300"
+                      height="200"
+                      className="h-10 w-10 lg:w-6 lg:h-6" />
           </span>
         </button>
       </div>
