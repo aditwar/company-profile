@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import vila from "../../public/jpg/vila.jpg";
+import vila from "../../public/png/vila.png";
 
 
 import { Metadata } from "next";
@@ -20,7 +20,7 @@ export default function AboutUsPage() {
                     </h1>
                     <div className='class="flex flex-wrap  bg-slate-900 items-center gap-6'>
 
-                        <Image src={vila} alt="Gradient"></Image>
+                        <Image src={vila} alt="vila"></Image>
                     
                     
                         <div className="text-gray-200 p-4 w-[400px] lg:w-[500px] mx-auto ">
