@@ -10,11 +10,11 @@ export default function ServicePage() {
     return (
         <>
             <section className="w-full  lg:bg-[#0C0C0C]">
-                <div className="max-w-screen-2xl mx-auto bg-[#000000] lg:-z-0 -z-10">
+                <div className="mx-auto bg-[#000000] lg:-z-0 -z-10">
                     <div>
-                        <Image src="/server.jpg" alt="me" width="1400" height="500" decoding="async" data-nimg="1" className='w-screen  object-cover h-[800px] opacity-80' />
+                        <Image src="/server.jpg" alt="me" width="1400" height="500" decoding="async" data-nimg="1" className='w-full h-[400px] sm:h-[600px] md:h-[700px] lg:h-[800px] 2xl:h-[900px] object-cover opacity-80 ' />
                     </div>
-                    <div className="absolute top-44 px-6 lg:top-40 lg:px-14">
+                    <div className="absolute top-44 px-10 lg:top-80 pl-10 lg:px-[280px] w-full">
                         <h2 className="text-2xl lg:text-4xl lg:text-left text-gray-200 font-semibold text-center drop-shadow-[1px_1px_1px_black]">Uptime Guaranteed,</h2>
                         <h1 className="text-5xl lg:text-7xl lg:w-[605px] lg:text-left font-bold text-white text-center drop-shadow-[1px_1px_1px_black]">Peace of Mind Delivered</h1>
                         <a className="flex justify-center z-50 mt-11 lg:justify-start  cursor-pointer" href="#produk2">
@@ -33,12 +33,12 @@ export default function ServicePage() {
                     <div className="w-[390px] mx-auto lg:w-[630px]">
                         <h1 className="text-black font-semibold text-center text-2xl pb-10 lg:text-5xl lg:text-left">Site Guard Pro: The flagship product for your website needs</h1>
                         <p className="text-sm text-center text-black pb-6 lg:pb-14 lg:text-base lg:text-left">Designed to offer comprehensive website monitoring and protection for businesses of all sizes. With a focus on uptime, security, and performance, SiteGuard Pro provides real-time monitoring, detailed analytics, and instant alerts, ensuring your website remains operational, secure, and optimized at all times</p>
-                            <div className="lg:flex hidden gap-3">
-                                <button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200">Order Now</button><button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full">$100</button>
-                            </div>
+                        <div className="lg:flex hidden gap-3">
+                            <button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200">Order Now</button><button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full">$100</button>
+                        </div>
                     </div>
                     <div className="mx-auto pb-[28px]">
-                        <Image src="/office.jpg" alt="me" width="500" height="500" decoding="async" data-nimg="1" className='object-cover object-bottom w-[360px] lg:w-[350px] h-[470px] rounded-2xl' />
+                        <Image src="/office.jpg" alt="me" width="500" height="500" decoding="async" data-nimg="1" className='object-cover w-full lg:w-[350px] h-[470px] rounded-2xl' />
                     </div>
                 </div>
             </section>
