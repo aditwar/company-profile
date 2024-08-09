@@ -16,8 +16,8 @@ export default function ServicePage() {
 
                     </div>
                     <div className="absolute top-44 px-6 lg:top-40 lg:px-14">
-                        <h2 className="text-2xl lg:text-4xl lg:text-left text-gray-200 font-semibold text-center drop-shadow-[1px_1px_1px_blue]">Voltrive one</h2>
-                        <h1 className="text-5xl lg:text-7xl lg:w-[605px] lg:text-left font-bold text-white text-center drop-shadow-[1px_1px_1px_blue]">The Alpha for the AI Robots era</h1>
+                        <h2 className="text-2xl lg:text-4xl lg:text-left text-gray-200 font-semibold text-center drop-shadow-[1px_1px_1px_blue]">Uptime Guaranteed,</h2>
+                        <h1 className="text-5xl lg:text-7xl lg:w-[605px] lg:text-left font-bold text-white text-center drop-shadow-[1px_1px_1px_blue]">Peace of Mind Delivered</h1>
                         <a className="flex justify-center z-50 mt-11 lg:justify-start  cursor-pointer" href="#produk2">
                             <button type="button" className="flex items-center bg-transparent  backdrop-blur-lg border gap-1 border-blue-600 px-3 py-2 text-[12px] text-white lg:text-sm  rounded-full font-bold hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200">See Products
                                 <span>
@@ -32,10 +32,10 @@ export default function ServicePage() {
             <section className="w-full lg:pt-16">
                 <div className="flex flex-wrap lg:items-center">
                     <div className="w-[390px] mx-auto lg:w-[630px]">
-                        <h1 className="text-black font-semibold text-center text-2xl pb-4 lg:text-5xl lg:text-left">NanoMind: Mini AI Robot with Maximum Capabilities</h1>
-                        <p className="text-sm text-center text-black pb-6 lg:pb-14 lg:text-base lg:text-left">NanoMind is an AI robot that is small in size but has extraordinary abilities. Despite being compact, NanoMind is equipped with advanced features that make it capable of handling various tasks with high efficiency.</p>
+                        <h1 className="text-black font-semibold text-center text-2xl pb-4 lg:text-5xl lg:text-left">SiteGuard Pro: The flagship product for your needs</h1>
+                        <p className="text-sm text-center text-black pb-6 lg:pb-14 lg:text-base lg:text-left">Designed to offer comprehensive website monitoring and protection for businesses of all sizes. With a focus on uptime, security, and performance, SiteGuard Pro provides real-time monitoring, detailed analytics, and instant alerts, ensuring your website remains operational, secure, and optimized at all times</p>
                             <div className="lg:flex hidden gap-3">
-                                <button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200">Pre Order</button><button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full">$214.000</button>
+                                <button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200">Order Now</button><button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full">$100</button>
                             </div>
                     </div>
                     <div className="mx-auto pb-[28px]">
