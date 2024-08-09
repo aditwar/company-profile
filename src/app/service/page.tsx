@@ -9,17 +9,16 @@ export const metadata: Metadata = {
 export default function ServicePage() {
     return (
         <>
-            <section className="w-full  lg:bg-[#0C0C0C] lg:pt-16 ">
-                <div className="max-w-screen-2xl mx-auto bg-[#0C0C0C] lg:-z-0 -z-10">
+            <section className="w-full  lg:bg-[#0C0C0C]">
+                <div className="max-w-screen-2xl mx-auto bg-[#000000] lg:-z-0 -z-10">
                     <div>
-                        <Image src="/server.jpg" alt="me" width="1400" height="933" decoding="async" data-nimg="1" className='w-screen  object-cover h-[590px] opacity-40' />
-
+                        <Image src="/server.jpg" alt="me" width="1400" height="500" decoding="async" data-nimg="1" className='w-screen  object-cover h-[800px] opacity-80' />
                     </div>
                     <div className="absolute top-44 px-6 lg:top-40 lg:px-14">
-                        <h2 className="text-2xl lg:text-4xl lg:text-left text-gray-200 font-semibold text-center drop-shadow-[1px_1px_1px_blue]">Uptime Guaranteed,</h2>
-                        <h1 className="text-5xl lg:text-7xl lg:w-[605px] lg:text-left font-bold text-white text-center drop-shadow-[1px_1px_1px_blue]">Peace of Mind Delivered</h1>
+                        <h2 className="text-2xl lg:text-4xl lg:text-left text-gray-200 font-semibold text-center drop-shadow-[1px_1px_1px_black]">Uptime Guaranteed,</h2>
+                        <h1 className="text-5xl lg:text-7xl lg:w-[605px] lg:text-left font-bold text-white text-center drop-shadow-[1px_1px_1px_black]">Peace of Mind Delivered</h1>
                         <a className="flex justify-center z-50 mt-11 lg:justify-start  cursor-pointer" href="#produk2">
-                            <button type="button" className="flex items-center bg-transparent  backdrop-blur-lg border gap-1 border-blue-600 px-3 py-2 text-[12px] text-white lg:text-sm  rounded-full font-bold hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200">See Products
+                            <button type="button" className="flex items-center bg-transparent  backdrop-blur-lg border gap-1 border-red-600 px-3 py-2 text-[12px] text-white lg:text-sm  rounded-full font-bold hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200">Our Products
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
                                 </span>
@@ -32,7 +31,7 @@ export default function ServicePage() {
             <section className="w-full lg:pt-16">
                 <div className="flex flex-wrap lg:items-center">
                     <div className="w-[390px] mx-auto lg:w-[630px]">
-                        <h1 className="text-black font-semibold text-center text-2xl pb-4 lg:text-5xl lg:text-left">SiteGuard Pro: The flagship product for your needs</h1>
+                        <h1 className="text-black font-semibold text-center text-2xl pb-10 lg:text-5xl lg:text-left">Site Guard Pro: The flagship product for your website needs</h1>
                         <p className="text-sm text-center text-black pb-6 lg:pb-14 lg:text-base lg:text-left">Designed to offer comprehensive website monitoring and protection for businesses of all sizes. With a focus on uptime, security, and performance, SiteGuard Pro provides real-time monitoring, detailed analytics, and instant alerts, ensuring your website remains operational, secure, and optimized at all times</p>
                             <div className="lg:flex hidden gap-3">
                                 <button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200">Order Now</button><button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full">$100</button>

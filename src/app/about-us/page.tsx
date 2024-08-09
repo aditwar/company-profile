@@ -22,7 +22,7 @@ export default function AboutUsPage() {
                         <Image src="/vila.png" alt="me" width="900" height="626" decoding="async" data-nimg="1" className='w-[400px] h-[385px] lg:w-[450px] object-cover color: transparent' />
                         <div className="text-gray-200 p-4 w-[400px] lg:w-[500px] mx-auto ">
                             <p className="pb-5 font-semibold">Driven by purpose</p>
-                            <p className="pb-5 text-sm w-[300px]">Founded in 2012, Company Monitor Service was born out of a simple yet powerful idea recognized the growing dependence on websites for business operations and customer engagement. They saw firsthand how even a few minutes of downtime could lead to significant financial loss and damage to a company’s reputation.</p>
+                            <p className="pb-5 text-sm w-[300px]">Founded in 2012, Aditya Co. Ltd was born out of a simple yet powerful idea recognized the growing dependence on websites for business operations and customer engagement. They saw firsthand how even a few minutes of downtime could lead to significant financial loss and damage to a company’s reputation.</p>
 
                             <p className="text-sm w-[300px] pb-16 lg:pb-0">As a technology company, we – and our brand licensees – innovate for people with one consistent belief: there’s always a way to make life better.</p>                            
                         </div>
@@ -38,26 +38,26 @@ export default function AboutUsPage() {
                         We have a proud heritage of ground-breaking innovation that stretches back over 130 years. Meaningful innovation – focused on our customers’ needs – remains at the heart of everything we do.
                     </p>
                     <div className="flex flex-wrap justify-center mx-auto gap-3.5 lg:gap-5 pb-20">
-                        <div className=" w-[180px] h-[200px] lg:w-[360px] lg:h-[250px] lg:p-8 flex flex-col justify-center bg-slate-700 bg-opacity-25 p-2 rounded-lg text-white">
+                        <div className=" w-[180px] h-[200px] lg:w-[360px] lg:h-[250px] lg:p-8 flex flex-col justify-center bg-[#ffffff40] bg-opacity-25 p-2 rounded-lg text-white">
                             <h1 className="text-4xl lg:text-5xl pb-2 font-bold">#1
                                 <span className="text-2xl lg:text-3xl"> Best Company</span>
                             </h1>
                             <p className="lg:text-xl text-base font-semibold">for MedTech patent filings with European Patent Office in 2023</p>
                         </div>
-                        <div className=" w-[180px] h-[200px] lg:w-[360px] lg:h-[250px] lg:p-8 flex flex-col justify-center bg-slate-700 bg-opacity-25 p-2  rounded-lg text-white">
+                        <div className=" w-[180px] h-[200px] lg:w-[360px] lg:h-[250px] lg:p-8 flex flex-col justify-center bg-[#ffffff40] bg-opacity-25 p-2  rounded-lg text-white">
                             <h1 className="text-4xl pb-2 font-bold">~9% of sales</h1>
                             <p className="text-xl font-semibold">invested in R&amp;D in 2023</p>
                         </div>
-                        <div className=" w-[180px] h-[200px] lg:w-[360px] lg:h-[250px] lg:p-8 flex flex-col justify-center bg-slate-700 bg-opacity-25 p-2 rounded-lg text-white">
+                        <div className=" w-[180px] h-[200px] lg:w-[360px] lg:h-[250px] lg:p-8 flex flex-col justify-center bg-[#ffffff40] bg-opacity-25 p-2 rounded-lg text-white">
                             <h1 className="text-4xl pb-2 font-bold">~50% </h1>
                             <p className="text-xl font-semibold">software/data science focus in R&amp;D</p>
                         </div>
-                        <div className=" w-[180px] h-[200px] lg:w-[360px] lg:h-[250px] lg:p-8 flex flex-col justify-center bg-slate-700 bg-opacity-25 p-2 rounded-lg text-white">
+                        <div className=" w-[180px] h-[200px] lg:w-[360px] lg:h-[250px] lg:p-8 flex flex-col justify-center bg-[#ffffff40] bg-opacity-25 p-2 rounded-lg text-white">
                             <h1 className="text-4xl pb-2 font-bold ">53,000 </h1>
                             <p className="text-xl lg:text-2xl font-semibold">patent rights</p>
                         </div>
                         
-                        <div className=" w-[180px] h-[200px] lg:w-[360px] lg:h-[250px] lg:p-8 flex flex-col justify-center bg-slate-700 bg-opacity-25 p-2 rounded-lg text-white">
+                        <div className=" w-[180px] h-[200px] lg:w-[360px] lg:h-[250px] lg:p-8 flex flex-col justify-center bg-[#ffffff40] bg-opacity-25 p-2 rounded-lg text-white">
                             <h1 className="lg:text-3xl text-lg pb-2 font-bold">Clarivate Top 100 Global Innovator  </h1>
                             <p className="lg:text-xl text-base font-semibold">11th year in a row</p>
                         </div>

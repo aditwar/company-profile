@@ -12,7 +12,7 @@ export function Pricing() {
       </p>
 
       <div className="flex flex-col gap-y-6 gap-x-[24px] lg:flex-row">
-        <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
+        <div className="w-full rounded-[8px] bg-[#d4eaff] p-6 flex flex-col lg:justify-between">
           <div>
             <h3 className="font-medium text-[#4328EB] text-[18px] lg:text-xl">
               Free Trial
@@ -130,7 +130,7 @@ export function Pricing() {
           </button>
         </div>
 
-        <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
+        <div className="w-full rounded-[8px] bg-[#ffd2f1] p-6 flex flex-col lg:justify-between">
           <div>
             <h3 className="font-medium text-[#4328EB] text-[18px] lg:text-xl">
               Enterprise
