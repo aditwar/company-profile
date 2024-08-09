@@ -38,13 +38,13 @@ export function Hero() {
           className="min-h-[500px] w-full object-cover lg:h-auto"
         />
 
-        <div className="absolute bottom-5 flex w-full flex-col items-center">
+        <div className="absolute bottom-10 flex w-full flex-col items-center">
           <Image
             src="/Image.svg"
             alt="hero image"
-            width="300"
-            height="200"
-            className="-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%]"
+            width="1000"
+            height="10"
+            className=" mb-[-230px] xl:mb-[-190px] lg:mb-[-150px] md:mb-[-50px] sm:mb-[-60px] sm:h-[400px] lg:h-auto xl:w-[80%]"
           />
 
           <div className="flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between lg:px-20">
