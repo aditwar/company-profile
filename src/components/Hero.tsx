@@ -43,8 +43,8 @@ export function Hero() {
             src="/Image.svg"
             alt="hero image"
             width="1000"
-            height="10"
-            className=" mb-[-230px] xl:mb-[-190px] lg:mb-[-150px] md:mb-[-50px] sm:mb-[-60px] sm:h-[400px] lg:h-auto xl:w-[80%]"
+            height="50"
+            className="mb-[-50px] xl:mb-[-190px] lg:mb-[-150px] md:mb-[-50px] sm:mb-[-80px] sm:h-[400px] lg:h-auto xl:w-[80%]"
           />
 
           <div className="flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between lg:px-20">
