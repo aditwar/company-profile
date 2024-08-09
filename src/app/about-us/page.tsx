@@ -30,7 +30,7 @@ export default function AboutUsPage() {
                 </div>
              </section>
 
-             <section className="w-full py-20 bg-stone-950">
+             <section className="w-full py-20 bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500">
                 <div className="max-w-7xl mx-auto flex flex-col">
                     <h1 className="text-white text-3xl mx-auto text-center w-[350px] font-semibold pb-5 lg:text-5xl lg:w-[700px]">Innovating to Address global health challenges
                     </h1>

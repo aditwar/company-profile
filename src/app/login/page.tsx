@@ -73,7 +73,7 @@ export default function LoginPage() {
                 </div>
             </div>
             {/* sing up section */}
-            <div className="xl:w-2/5 bg-gradient-to-r from-indigo-500 to-pink-500 text-gray-100 rounded-tr-2xl rounded-br-2xl py-36 px-12">
+            <div className="xl:w-2/5 bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 rounded-tr-2xl rounded-br-2xl py-36 px-12">
                 <h2 className="text-3xl font-bold mb-2">Hello Friend !</h2>
                 <div className="border-2 w-10 border-white inline-block mb-2 "></div>
                 <p className="mb-2">
