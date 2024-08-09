@@ -20,7 +20,7 @@ export function Footer() {
       </ul>
 
       <p className="pt-[56px] text-center text-[14px] font-medium text-[#5F7896] sm:pt-5">
-        © Copyright 2024. That's All. Thanks for your visit.
+        © Copyright 2024. That&apos;s All. Thanks for your visit.
       </p>
 
       <div className="flex items-center justify-center gap-x-[56px] pt-[40px]">

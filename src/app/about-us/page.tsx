@@ -62,7 +62,7 @@ export default function AboutUsPage() {
                             <p className="lg:text-xl text-base font-semibold">11th year in a row</p>
                         </div>
                     </div>
-                    <p className="text-gray-200 text-center mx-auto w-[350px] pb-16 lg:w-[800px] lg:pb-24">"To empower businesses worldwide with seamless, uninterrupted online experiences, ensuring their digital presence is always secure, reliable, and performing at its best."</p>
+                    <p className="text-gray-200 text-center mx-auto w-[350px] pb-16 lg:w-[800px] lg:pb-24">To empower businesses worldwide with seamless, uninterrupted online experiences, ensuring their digital presence is always secure, reliable, and performing at its best</p>
                 </div>
             </section>
 

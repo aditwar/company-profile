@@ -12,10 +12,10 @@ export function Hero() {
     <div className="pt-[180px]">
       <div className="px-[20px] lg:px-[280px]">
         <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]">
-          The World's Leading Monitoring Service
+          The World&apos;s Leading Monitoring Service
         </h1>
         <p className="text-center pt-6 text-[#36485C] lg:text-[18px] lg:leading-7">
-        Experience the pinnacle of reliability with The World's Leading Monitoring Service. Our state-of-the-art technology and unparalleled expertise ensure you receive the most accurate and timely insights. Trust us to safeguard your operations with comprehensive monitoring solutions that keep you informed and ahead of the curve. Discover the peace of mind that comes with knowing you're backed by the best in the industry.
+        Experience the pinnacle of reliability with The World&apos;s Leading Monitoring Service. Our state-of-the-art technology and unparalleled expertise ensure you receive the most accurate and timely insights. Trust us to safeguard your operations with comprehensive monitoring solutions that keep you informed and ahead of the curve. Discover the peace of mind that comes with knowing you&apos;re backed by the best in the industry.
         </p>
 
         <div className="flex w-full pt-8 justify-center gap-x-6 ">

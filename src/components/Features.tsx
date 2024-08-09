@@ -28,7 +28,7 @@ export function Features() {
             />
           </div>
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-          Elevate your workflow and stay ahead of the curve with our game-changing feature. Imagine having a bird's eye view of your entire operation, effortlessly at your fingertips. Our customizable dashboard transforms how you manage tasks, offering unprecedented clarity and control. Discover a new level of efficiency and insight that propels your productivity to new heights.
+          Elevate your workflow and stay ahead of the curve with our game-changing feature. Imagine having a bird&apos;s eye view of your entire operation, effortlessly at your fingertips. Our customizable dashboard transforms how you manage tasks, offering unprecedented clarity and control. Discover a new level of efficiency and insight that propels your productivity to new heights.
           </p>
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
@@ -101,7 +101,7 @@ export function Features() {
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-          Engage and connect with your customers like never before. With our cutting-edge website monitoring tools, you'll gain invaluable insights into customer behavior, preferences, and interactions. Build lasting relationships that set you apart from the competition. Discover the power of truly understanding your customers, and watch your business thrive.
+          Engage and connect with your customers like never before. With our cutting-edge website monitoring tools, you&apos;ll gain invaluable insights into customer behavior, preferences, and interactions. Build lasting relationships that set you apart from the competition. Discover the power of truly understanding your customers, and watch your business thrive.
           </p>
 
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
