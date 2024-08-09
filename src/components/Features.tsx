@@ -96,9 +96,9 @@ export function Features() {
           <Image            
             alt="feature 1 image"
             src="/feature2.svg"            
-            width="300"
+            width="100"
             height="200"
-            className="pt-[24px] sm:hidden"
+            className="pt-[24px] sm:hidden "
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
           Engage and connect with your customers like never before. With our cutting-edge website monitoring tools, youll gain invaluable insights into customer behavior, preferences, and interactions. Build lasting relationships that set you apart from the competition. Discover the power of truly understanding your customers, and watch your business thrive.
@@ -163,14 +163,14 @@ export function Features() {
           <h3 className="font-medium text-[#EB2891] lg:text-[18px] ">
             Growth Monitoring
           </h3>
-          <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+          <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[50px]">
             Monitor your sites with New Subscribers
           </h1>
           <Image            
             alt="feature 1 image"
             src="/feature3.svg"            
-            width="300"
-            height="200"
+            width="10"
+            height="50"
             className="pt-[24px] sm:hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
