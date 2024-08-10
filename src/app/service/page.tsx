@@ -29,7 +29,7 @@ export default function ServicePage() {
                 </div>
             </section>
 
-            <section className="w-full lg:pt-16 sm:pt-5">
+            <section className="w-full lg:pt-[50px] sm:pt-[40px] pt-[20px]">
                 <div className="flex flex-wrap justify-center items-center lg:space-x-20">
                     <div className="w-[400px] lg:w-[630px]">
                         <h1 className="text-black font-semibold text-center text-2xl pb-10 lg:text-5xl lg:text-left">Site Guard Pro: The flagship product for your website needs</h1>
