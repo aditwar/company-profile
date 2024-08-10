@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Image from 'next/image';
 import { Pricing } from "@/components/Pricing";
-import Blog from "@/app/blog/page";
+
 
 export const metadata: Metadata = {
     title: "Aditya | Service",
@@ -31,8 +31,8 @@ export default function ServicePage() {
             </section>
 
             <section className="w-full lg:pt-[50px] sm:pt-[40px] pt-[20px]">
-                <div className="flex flex-wrap justify-center items-center lg:space-x-20">
-                    <div className="w-[400px] lg:w-[630px]">
+                <div className="flex flex-wrap justify-center items-center px-[100px] lg:px-[150px] xl:px-[20px] xl:space-x-10">
+                    <div className="w-full xl:w-[500px]">
                         <h1 className="text-black font-semibold text-center text-2xl pb-10 lg:text-5xl lg:text-left">Site Guard Pro: The flagship product for your website needs</h1>
                         <p className="text-sm text-center text-black pb-6 lg:pb-14 lg:text-base lg:text-left">Designed to offer comprehensive website monitoring and protection for businesses of all sizes. With a focus on uptime, security, and performance, SiteGuard Pro provides real-time monitoring, detailed analytics, and instant alerts, ensuring your website remains operational, secure, and optimized at all times</p>
                         <div className="lg:flex hidden gap-3">
@@ -40,17 +40,13 @@ export default function ServicePage() {
                         </div>
                     </div>
                     <div className="justify-center">
-                        <Image src="/office.jpg" alt="me" width="500" height="500" decoding="async" data-nimg="1" className='object-cover w-full lg:w-[350px] h-[470px] rounded-2xl' />
+                        <Image src="/office.jpg" alt="me" width="50" height="50" decoding="async" data-nimg="1" className='hidden xl:flex object-cover w-full h-[300px] lg:h-[470px] lg:rounded-2xl' />
                     </div>
                 </div>
             </section>
 
             <section className="flex flex-wrap justify-center items-center w-screen lg:pt-16">
                 <Pricing/>
-            </section>
-
-            <section>
-                <Blog/>
             </section>
         </>
     )
