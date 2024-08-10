@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Image from 'next/image';
 import { Pricing } from "@/components/Pricing";
+import Blog from "@/app/blog/page";
 
 export const metadata: Metadata = {
     title: "Aditya | Service",
@@ -46,6 +47,10 @@ export default function ServicePage() {
 
             <section className="flex flex-wrap justify-center items-center w-screen lg:pt-16">
                 <Pricing/>
+            </section>
+
+            <section>
+                <Blog/>
             </section>
         </>
     )
