@@ -17,7 +17,7 @@ export default function LoginPage() {
         <>
         <main className="flex flex-col items-center justify-center w-full flex-1 xl:px-20 text-center pt-[145px]">
             {/* Sign in section */}
-            <div className="bg-white rounded-2xl shadow-2xl md:flex xl:w-2/3 max-w-4xl">
+            <div className="bg-white md:rounded-tl-2xl md:rounded-bl-2xl shadow-2xl md:flex xl:w-2/3 max-w-4xl">
             <div className="xl:w-3/5 p-5 md:shrink-0">                
                 <div className="py-10 text-black">
                 <h2 className="text-3xl font-bold mb-2">Sign in to Account</h2>
@@ -72,8 +72,8 @@ export default function LoginPage() {
                 </div>
                 </div>
             </div>
-            {/* sing up section */}
-            <div className="xl:w-2/5 bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 rounded-tr-2xl rounded-br-2xl py-36 px-12">
+            {/* sign up section */}
+            <div className="xl:w-2/5 bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 md:rounded-tr-2xl md:rounded-br-2xl py-36 px-12">
                 <h2 className="text-3xl font-bold mb-2">Hello Friend !</h2>
                 <div className="border-2 w-10 border-white inline-block mb-2 "></div>
                 <p className="mb-2">
