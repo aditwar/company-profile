@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Features() {
   return (
-    <div className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px] ">
+    <div className="flex flex-col gap-y-[56px] pt-[56px] lg:pt-[120px] lg:gap-y-[80px] ">
       <div className="flex flex-col gap-x-6 sm:flex-row-reverse">
         <Image
           src="/feature.svg"
@@ -11,7 +11,7 @@ export function Features() {
           height="200"
           className="hidden w-1/2 sm:block"
         />
-        <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
+        <div className="sm:w-1/2 lg:pt-[56px] lg:pr-[56px]">
           <h3 className="font-medium text-[#0085FF] lg:text-[18px] ">
             Sales Monitoring
           </h3>
@@ -24,7 +24,7 @@ export function Features() {
               alt="hero image"
               width="300"
               height="200"
-              className="pt-[24px] sm:hidden rounded-[16px]"
+              className="pt-[24px] hidden"
             />
           </div>
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
@@ -98,7 +98,7 @@ export function Features() {
             src="/feature2.svg"            
             width="100"
             height="200"
-            className="pt-[24px] sm:hidden "
+            className="pt-[24px] hidden "
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
           Engage and connect with your customers like never before. With our cutting-edge website monitoring tools, youll gain invaluable insights into customer behavior, preferences, and interactions. Build lasting relationships that set you apart from the competition. Discover the power of truly understanding your customers, and watch your business thrive.
@@ -171,7 +171,7 @@ export function Features() {
             src="/feature3.svg"            
             width="10"
             height="50"
-            className="pt-[24px] sm:hidden"
+            className="pt-[24px] hidden"
           />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">
             Stay on top of things and revamp your work process with our
