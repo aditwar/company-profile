@@ -14,17 +14,17 @@ export default function AboutUsPage() {
         <>
             <section className='w-full pt-[180px] py-40'>
                 <div className='max-w-7xl mx-auto px-10 flex flex-col items-center'>
-                    <h1 className='tracking-[2px] text-black font-bold w-[400px] lg:w-[700px] text-2xl lg:text-4xl text-center mb-28'>
-                    The main monitoring location is in Dallas-USA and there are other nodes in other countries/continents to verify down statuses.
+                    <h1 className='tracking-[2px] text-black font-bold w-[400px] lg:w-[700px] text-2xl lg:text-4xl text-center mb-10'>
+                    The main location is in Dallas-USA and there are other nodes in other countries/continents to verify down statuses.
                     </h1>
                     <div className='flex flex-wrap bg-slate-900 items-center gap-6'>
 
-                        <Image src="/vila.png" alt="me" width="900" height="626" decoding="async" data-nimg="1" className='w-[400px] h-[385px] lg:w-[450px] object-cover color: transparent' />
+                        <Image src="/vila.png" alt="me" width="900" height="626" decoding="async" data-nimg="1" className='w-full justify-center items-center h-[385px] lg:w-[450px] object-cover color: transparent' />
                         <div className="text-gray-200 p-4 w-[400px] lg:w-[500px] mx-auto ">
                             <p className="pb-5 font-semibold">Driven by purpose</p>
-                            <p className="pb-5 text-sm w-[300px]">Founded in 2012, Aditya Co. Ltd was born out of a simple yet powerful idea recognized the growing dependence on websites for business operations and customer engagement. They saw firsthand how even a few minutes of downtime could lead to significant financial loss and damage to a company’s reputation.</p>
+                            <p className="pb-5 text-sm w-full justify-center">Founded in 2012, Aditya Co. Ltd was born out of a simple yet powerful idea recognized the growing dependence on websites for business operations and customer engagement. They saw firsthand how even a few minutes of downtime could lead to significant financial loss and damage to a company’s reputation.</p>
 
-                            <p className="text-sm w-[300px] pb-16 lg:pb-0">As a technology company, we – and our brand licensees – innovate for people with one consistent belief: there’s always a way to make life better.</p>                            
+                            <p className="text-sm w-[300px] pb-16 lg:pb-0">As a technology company, we and our brand licensees innovate for people with one consistent belief: there’s always a way to make life better.</p>                            
                         </div>
                     </div>
                 </div>
