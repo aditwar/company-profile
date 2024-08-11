@@ -13,7 +13,7 @@ export default function ServicePage() {
         <>
             <section className="w-full  lg:bg-[#0C0C0C]">
                 <div className="mx-auto bg-[#000000] lg:-z-0 -z-10">
-                    <div><Image src="/server.jpg" alt="me" width="1400" height="500" decoding="async" data-nimg="1" className='w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px] 2xl:h-[900px] object-cover opacity-80 ' /></div>
+                    <div><Image src="/server.jpg" alt="me" width="5000" height="5000" decoding="async" data-nimg="1" className='w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px] 2xl:h-[900px] object-cover opacity-80 ' /></div>
                     <div className="absolute top-44 px-10 md:top-[250px] lg:top-80 pl-10 lg:px-[280px] w-full">
                         <h2 className="text-2xl lg:text-4xl lg:text-left text-gray-200 font-semibold text-center drop-shadow-[1px_1px_1px_black]">Uptime Guaranteed</h2>
                         <h1 className="text-2xl sm:text-5xl lg:text-7xl lg:w-[605px] lg:text-left font-bold text-white text-center drop-shadow-[1px_1px_1px_black]">Peace of Mind Delivered</h1>
@@ -37,7 +37,7 @@ export default function ServicePage() {
                         </div>
                     </div>
                     <div className="justify-center">
-                        <Image src="/office.jpg" alt="me" width="50" height="50" decoding="async" data-nimg="1" className='hidden xl:flex object-cover w-full h-[300px] lg:h-[470px] lg:rounded-2xl' />
+                        <Image src="/office.jpg" alt="me" width="5000" height="5000" decoding="async" data-nimg="1" className='hidden xl:flex object-cover w-full h-[300px] lg:h-[470px] lg:rounded-2xl' />
                     </div>
                 </div>
             </section>
