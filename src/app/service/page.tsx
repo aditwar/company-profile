@@ -27,8 +27,8 @@ export default function ServicePage() {
                     </div>
                 </div>
             </section>
-            <section className="w-full lg:px-[50px] sm:pt-[40px] pt-[20px]">
-                <div className="flex flex-wrap justify-center items-center px-[100px] lg:px-[150px] xl:px-[20px] xl:space-x-10">
+            <section className="flex justify-center items-center w-full px-[26px] lg:px-[200px] xl:px-[0px] pt-[60px]">
+                <div className="flex flex-wrap justify-center items-center xl:space-x-10">
                     <div className="w-full xl:w-[500px]">
                         <h1 className="text-black font-semibold text-center text-2xl pb-10 lg:text-5xl lg:text-left">Site Guard Pro: The flagship product for your website needs</h1>
                         <p className="text-sm text-center text-black pb-3 lg:pb-5 lg:text-base lg:text-left">Designed to offer comprehensive website monitoring and protection for businesses of all sizes. With a focus on uptime, security, and performance, SiteGuard Pro provides real-time monitoring, detailed analytics, and instant alerts, ensuring your website remains operational, secure, and optimized at all times</p>
@@ -37,7 +37,7 @@ export default function ServicePage() {
                         </div>
                     </div>
                     <div className="justify-center">
-                        <Image src="/office.jpg" alt="me" width="2466" height="2466" decoding="async" data-nimg="1" className='hidden mt-10 xl:flex object-cover w-full h-[300px] lg:h-[470px] lg:rounded-2xl' />
+                        <Image src="/office.jpg" alt="me" width="1000" height="1000" decoding="async" data-nimg="1" className='hidden xl:flex object-cover w-full h-[300px] rounded-2xl' />
                     </div>
                 </div>
             </section>
